@@ -1,0 +1,7 @@
+{"hour": 0, "status": "Finished", "minu": 17, "year": 2017, "cost": 1.0, "s": 30, "day": 5, "duration": 1001, "month": 6, "ms": 773, "name": "fmtask_1D", "rate": 1.0}
+{"hour": 0, "status": "Finished", "minu": 33, "year": 2017, "cost": 1.1, "s": 20, "day": 5, "duration": 2000, "month": 6, "ms": 773, "name": "fmtask_1D_Tuflow", "rate": 1.1}
+{"hour": 0, "status": "Finished", "minu": 50, "year": 2017, "cost": 1.2, "s": 0, "day": 5, "duration": 3000, "month": 6, "ms": 773, "name": "fmtask_2D", "rate": 1.2}
+{"hour": 1, "status": "Finished", "minu": 6, "year": 2017, "cost": 2.6, "s": 40, "day": 5, "duration": 4000, "month": 6, "ms": 773, "name": "fmtask_2D_1D", "rate": 1.3}
+{"hour": 1, "status": "Finished", "minu": 23, "year": 2017, "cost": 2.8, "s": 20, "day": 5, "duration": 5000, "month": 6, "ms": 773, "name": "fmtask_Tuflow", "rate": 1.4}
+{"hour": 1, "status": "Finished", "minu": 40, "year": 2017, "cost": 3.0, "s": 0, "day": 5, "duration": 6000, "month": 6, "ms": 773, "name": "fmtask_Other", "rate": 1.5}
+{"hour": 2, "status": "Finished", "minu": 13, "year": 2017, "cost": 0.0, "s": 20, "day": 5, "duration": 8000, "month": 6, "ms": 773, "name": "defaultrate", "rate": 0.0}
