@@ -1,0 +1,1 @@
+{"day": 25, "minu": 0, "ms": 773, "name": "fmtask_1D-1", "rate": 1.0, "hour": 0, "year": 2017, "status": "Finished", "cost": 0.0, "duration": 608461, "s": 0, "month": 12}

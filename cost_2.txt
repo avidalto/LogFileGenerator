@@ -1,8 +1,8 @@
-{"cost": 1.0, "name": "fmtask_1D-1", "day": 5, "hour": 0, "status": "Finished", "ms": 773, "minu": 17, "rate": 1.0, "s": 30, "duration": 1001, "month": 6, "year": 2017}
-{"cost": 1.0, "name": "fmtask_1D-2", "day": 5, "hour": 0, "status": "Finished", "ms": 773, "minu": 17, "rate": 1.0, "s": 30, "duration": 1001, "month": 6, "year": 2017}
-{"cost": 1.1, "name": "fmtask_1D_Tuflow", "day": 5, "hour": 0, "status": "Finished", "ms": 773, "minu": 33, "rate": 1.1, "s": 20, "duration": 2000, "month": 6, "year": 2017}
-{"cost": 1.2, "name": "fmtask_2D", "day": 5, "hour": 0, "status": "Finished", "ms": 773, "minu": 50, "rate": 1.2, "s": 0, "duration": 3000, "month": 6, "year": 2017}
-{"cost": 2.6, "name": "fmtask_2D_1D", "day": 5, "hour": 1, "status": "Finished", "ms": 773, "minu": 6, "rate": 1.3, "s": 40, "duration": 4000, "month": 6, "year": 2017}
-{"cost": 2.8, "name": "fmtask_Tuflow", "day": 5, "hour": 1, "status": "Finished", "ms": 773, "minu": 23, "rate": 1.4, "s": 20, "duration": 5000, "month": 6, "year": 2017}
-{"cost": 3.0, "name": "fmtask_Other", "day": 5, "hour": 1, "status": "Finished", "ms": 773, "minu": 40, "rate": 1.5, "s": 0, "duration": 6000, "month": 6, "year": 2017}
-{"cost": 0.0, "name": "defaultrate", "day": 5, "hour": 2, "status": "Finished", "ms": 773, "minu": 13, "rate": 0.0, "s": 20, "duration": 8000, "month": 6, "year": 2017}
+{"year": 2017, "hour": 0, "s": 41, "month": 6, "cost": 1.0, "rate": 1.0, "ms": 773, "name": "fmtask_1D-1", "status": "Finished", "duration": 1001, "day": 5, "minu": 16}
+{"year": 2017, "hour": 0, "s": 41, "month": 6, "cost": 1.0, "rate": 1.0, "ms": 773, "name": "fmtask_1D-2", "status": "Finished", "duration": 1001, "day": 5, "minu": 16}
+{"year": 2017, "hour": 0, "s": 20, "month": 6, "cost": 1.1, "rate": 1.1, "ms": 773, "name": "fmtask_1D_Tuflow", "status": "Finished", "duration": 2000, "day": 5, "minu": 33}
+{"year": 2017, "hour": 0, "s": 0, "month": 6, "cost": 1.2, "rate": 1.2, "ms": 773, "name": "fmtask_2D", "status": "Finished", "duration": 3000, "day": 5, "minu": 50}
+{"year": 2017, "hour": 1, "s": 40, "month": 6, "cost": 2.6, "rate": 1.3, "ms": 773, "name": "fmtask_2D_1D", "status": "Finished", "duration": 4000, "day": 5, "minu": 6}
+{"year": 2017, "hour": 1, "s": 20, "month": 6, "cost": 2.8, "rate": 1.4, "ms": 773, "name": "fmtask_Tuflow", "status": "Finished", "duration": 5000, "day": 5, "minu": 23}
+{"year": 2017, "hour": 1, "s": 0, "month": 6, "cost": 3.0, "rate": 1.5, "ms": 773, "name": "fmtask_Other", "status": "Finished", "duration": 6000, "day": 5, "minu": 40}
+{"year": 2017, "hour": 2, "s": 20, "month": 6, "cost": 0.0, "rate": 0.0, "ms": 773, "name": "defaultrate", "status": "Finished", "duration": 8000, "day": 5, "minu": 13}

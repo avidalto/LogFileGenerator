@@ -67,14 +67,13 @@ The directory contains 4 example input files:
    input_2.txt: Is similar to input_1.txt but runs the fmtask_1D app twice, therefore,
                 it runs 8 jobs. 
    input_3.txt: Contains 12 jobs corresponding to 7 apps. 11 Jobs start at the same time.
- 
- To run the example just type: ./gentest.sh 3
- The 3 is the total number if input_*.txt
-
-
-- IMPORTANT NOTES
-The gentest.py script does not update the date (year-month-day). It only considers the
-time (hour-minute-second). This should be fixed in the object process updateTime. 
+   input_4.txt: Contains 1 job that runs from 2017/12/25 00:00:00 to 2018/01/01 01:01:01.
+                The purpose of this input is to check the correct changes are being made
+                to the date and time. The duration of the job is:
+                7*24*60*60+60*60+60+1=608461 
+   
+ To run the example just type: ./gentest.sh 4
+ The 4 is the total number if input_*.txt
    
 
  

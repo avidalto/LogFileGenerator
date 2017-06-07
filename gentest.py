@@ -65,15 +65,41 @@ class job():
        f.write("%s %s,%s-0500 DEBUG swift JOB_END jobid=%s\n" %(date,time,self.ms,self.name))
        self.status="Finished"
     def updateTime(self,time2add): # A job can update its current time
-       # FIXME: updateTime needs to also update the date!!!!
-       # Assuming duration is less than 1 day !!!!
-       # Updates the current time of the job
+       # Updates the current date and time of the job
        timeInSec=self.hour*60*60+self.minu*60+self.s+time2add
        self.hour=int(timeInSec/(60*60))
        left=timeInSec%(60*60)
        self.minu=int(left/60)
        left=left%60
        self.s=left
+       # Check if hours need to be converted to date
+       while self.hour>=24:
+          self.hour=self.hour-24
+          # Check if months need an update
+          if self.day==28:
+            if self.month==2: # February
+              self.month=3
+              self.day=1
+            else:
+              self.day=self.day+1
+          elif self.day==30:
+            if self.month in [11,4,6,9]: # November, April, June, September
+              self.month=self.month+1
+              self.day=1
+            else:
+              self.day=self.day+1
+          elif self.day==31:
+            if self.month in [1,3,5,7,8,10]: # Rest of months except December
+              self.month=self.month+1
+              self.day=1
+            else: # Happy new year!
+              self.month=1
+              self.day=1
+              self.year=self.year+1
+          else:
+              self.day=self.day+1
+
+
     def saveCost(self): # A job can calculate and save its cost
        hours=int(self.duration/(60*60))
        self.cost=hours*self.rate
@@ -102,7 +128,7 @@ for j in range(Njobs):
    for tick in range(Nticks):
       jobList[j].updateTime(tickerTime)
       jobList[j].ProgressTicker(f)
-      jobList[j].updateTime(leftTime)
+   jobList[j].updateTime(leftTime)
    jobList[j].JOB_END(f)
    if j==(Njobs-1):
       date=datetime.date(jobList[j].year,jobList[j].month,jobList[j].day)
